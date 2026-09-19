@@ -1,0 +1,22 @@
+{
+  "name": "necta-md",
+  "version": "1.0.0",
+  "description": "NECTA MD - Your Backdoor to Automation",
+  "main": "pair.js",
+  "scripts": {
+    "start": "node pair.js",
+    "dev": "nodemon pair.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.10",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "necta-md"],
+  "author": "Nullforge",
+  "license": "MIT"
+}
